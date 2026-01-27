@@ -82,3 +82,92 @@ parent {
 .box-border {
     box-sizing: border-box;
 }
+.display {
+    background-color: pink;
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+}
+.display-inline {
+    /* inline : width, height 값 X 
+       inline-block : width, height 값 O
+    */
+    display: inline;
+}
+.display-block {
+    display: block;
+}
+/* float, clear */
+.float {
+    width: 80px;
+    height: 80px;
+    background: skyblue;
+    margin: 5px;
+    text-align: center;
+    line-height: 80px;
+}
+.float {
+/* left or right */
+float: right;
+width: 80px;
+height: 80px;
+background: skyblue;
+margin: 5px;
+text-align: center;
+line-height: 80px;
+}
+/* position */
+.outer {
+    width: 400px;
+    height: 300px;
+    background: #f4f4f4;
+    position: relative;
+    overflow: auto;
+}
+.position-box {
+    width: 100px;
+    height: 100px;
+}
+.relative {
+    background: orange;
+    position: relative;
+    /* top or bottom / left or right */
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+.absolute {
+    background: green;
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}
+.fixed-p {
+    position: fixed;
+    background: red;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+}
+.sticky {
+    background: blue;
+    position: sticky;
+    top: 0px;
+}
+/* hiden vs none */
+.vd {
+    width: 100px;
+    height: 100px;
+    background: lightgrey;
+    margin: 10px;
+    display: inline-block;
+}
+.hidden {
+    /* 보이지는 않는데 있었던 자리 그대로 */
+    visibility: hidden;
+}
+.none {
+    /* 존재 자체를 화면에서 없앰 */
+    display: none;
+}

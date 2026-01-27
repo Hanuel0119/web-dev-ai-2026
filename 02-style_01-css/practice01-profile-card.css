@@ -10,7 +10,6 @@ body {
     margin: 20px;
     border-radius: 10px;
     color: white;
-    align: center;
     top: 10%;
     left: 30%;
     position: absolute;
@@ -22,13 +21,13 @@ body {
     background-position: center;
      height: 100px;
     width: 100px;
-    border: 3px solid;
+    border: 2.5px solid;
     padding: 20px;
     color: white;
     margin: -50px 0 0 -50px;
     border-radius: 50%;
     top: 20%;
-    left: 50%;
+    left: 47%;
     position: absolute;
 }
 
@@ -37,14 +36,14 @@ body {
     font-weight: bold;
     font-size: 30px;
     top: 28%;
-    left: 43%;
+    left: 41%;
     position: absolute;
 }
 .ta2 {
     text-align: center;
     font-size: 13px;
     top: 34.5%;
-    left: 40%;
+    left: 38%;
     position: absolute;
 }
 
@@ -75,7 +74,6 @@ body {
     margin: 20px;
     border-radius: 10px;
     color: white;
-    align: center;
     top: 44%;
     left: 32%;
     font-weight: bold;
