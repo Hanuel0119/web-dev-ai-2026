@@ -1,0 +1,42 @@
+.box {
+    height: 150px;
+    border: 4px dashed;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* background-color */
+.bg-color {
+    background-color: teal;
+}
+/* background-clip : 범위 */
+.clip {
+    background-color: orange;
+    border: 8xp dashed;
+}
+.content-box {
+    background-clip: content-box;
+}
+.padding-box {
+    background-clip: padding-box;
+}
+.border-box {
+    /* 기본값 */
+    background-clip: border-box;
+}
+
+/* background-image */
+.bg-image {
+    background-image:url(../02-style_01-css/assets/panda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* gradient */
+.bg-gradient {
+background: linear-gradient(90deg, yellow,red,orange);
+}
+.bg-radial {
+   background: radial-gradient(circle, #00c6ff, #0072ff);
+}
