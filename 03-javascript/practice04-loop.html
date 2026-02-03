@@ -32,12 +32,15 @@
       <li>
         1부터 사용자에게 입력받은 숫자까지의 합을 출력하시오. (prompt 사용)
         <script>
-        while(true) {
-        prompt("종료하려면 e를 입력해주세요")
-        if (input === "e") {
-            break;
+          let input = prompt("");
+          let numss = Number(input);
+          let sum = 0;
+
+          for (let i = 1; i <= numss; i++) {
+            sum += i;
           }
-        }
+
+          console.log(sum);
         </script>
       </li>
 
@@ -86,7 +89,7 @@
         <script>
         for (let i = 1; i < 10; i++) {
         if (i % 2 === 1) {
-            if (i === 7) break;
+        if (i === 7) break;
         console.log(i);    
         }      
         }
