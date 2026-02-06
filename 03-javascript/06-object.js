@@ -49,13 +49,13 @@ person1.hello = function () {
 console.log(person1);
 person1.hello();
 
-const person1 = new Object(); // 거의 안 씀! {}랑 동일
-person2.name = "응애";
-person2[`age`] = 7;
-person2.hello = function () {
+const person5 = new Object(); // 거의 안 씀! {}랑 동일
+person5.name = "응애";
+person5[`age`] = 7;
+person5.hello = function () {
     console.log(`나는 ${this.name}이고, 나이는 ${this.age}살이야`);
 };
-person2.hello();
+person5.hello();
 
 //this
 const person3 = {
@@ -93,3 +93,4 @@ class Person2 {
     }
 }
 const p3 = new Person2("홍서윤", 2);
+
