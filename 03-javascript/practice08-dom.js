@@ -77,8 +77,6 @@ const randomQuote = () => {
        setInterval(randomQuote, 3000);
     };
 
-
-
 randomQuote();
 current();
 count();
