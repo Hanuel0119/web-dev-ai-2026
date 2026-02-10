@@ -23,7 +23,11 @@ const minute = String(now.getMinutes()).padStart(2, "0");
 
 // 요일 배열 제공
 const weeks = ["일", "월", "화", "수", "목", "금", "토"];
-const week = weeks[now.getDay()];
+const currentText = document.querySelector("#current");
+const clockText = document.querySelector("h1");
+const countText = document.querySelector("count");
+// const quoteE = document.querySelector("quoteE");
+// const quoteK = document.querySelector("quoteK");
 
 // 한국어, 영어
 const enEl = document.getElementById("en")
@@ -46,6 +50,8 @@ const current = () => {
     console.log(now.getHours()); // 시
     console.log(now.getMinutes()); // 분
     console.log(now.String(now.getSeconds()).padStart(2, "0")); // 초
+    currentText.textContent = `${year}-${month}-${day}-(${week})`;
+    clockText.textContent = `15:43:41`;
 }
 
 // 남은 시간
@@ -63,6 +69,7 @@ const count = () => {
     console.log(hour % 24); // 시간
     console.log(minute % 60); // 분
     console.log(second % 60); // 초
+
 
     countEl.textContent = `올해 남은 시간: ${day}일 ${displayHours}시 ${displayMinutes}분 ${displaySeconds}초`;
 };
