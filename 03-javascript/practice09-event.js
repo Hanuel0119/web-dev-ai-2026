@@ -6,9 +6,6 @@ const photo = [
     `./assets/spy3.jpg`,
 ];
 
-const my = [];
-const play = [];
-
 // 랜덤
 function getRandomImage() {
     return photo[Math.floor(Math.random() * photo.length)];
